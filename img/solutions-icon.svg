@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="Background" display="none">
+	<rect display="inline" fill="#43D343" width="500" height="500"/>
+</g>
+<g id="Circle">
+	<circle fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" cx="250" cy="250" r="201.5"/>
+</g>
+<g id="Elements">
+	<rect x="144.4" y="314.6" opacity="0.4" fill="#FFFFFF" width="73.5" height="7.6"/>
+	<path opacity="0.4" fill="#FFFFFF" d="M354.1,341.3h-28.7c-1.2,0-2.1-0.9-2.1-2.1v-3.4c0-1.2,0.9-2.1,2.1-2.1h28.7
+		c1.2,0,2.1,0.9,2.1,2.1v3.4C356.3,340.4,355.3,341.3,354.1,341.3z"/>
+	<g>
+		<path opacity="0.4" fill="#FFFFFF" d="M177.2,341.3h-28.7c-1.2,0-2.1-0.9-2.1-2.1v-3.4c0-1.2,0.9-2.1,2.1-2.1h28.7
+			c1.2,0,2.1,0.9,2.1,2.1v3.4C179.3,340.4,178.4,341.3,177.2,341.3z"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M213.8,341.3h-28.7c-1.2,0-2.1-0.9-2.1-2.1v-3.4c0-1.2,0.9-2.1,2.1-2.1h28.7
+			c1.2,0,2.1,0.9,2.1,2.1v3.4C215.9,340.4,215,341.3,213.8,341.3z"/>
+	</g>
+	<g id="Graph">
+		<g opacity="0.4">
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="136.8,291.7 172.4,253.7 186.5,268.1 
+					224.5,228.8 				"/>
+				<g>
+					<polygon fill="#FFFFFF" points="227.5,233.9 230.2,222.9 219.3,226 					"/>
+				</g>
+			</g>
+		</g>
+		<polygon opacity="0.4" fill="#FFFFFF" points="128,304 128,206 125,206 125,213 118,213 118,215 125,215 125,227 118,227 118,229 
+			125,229 125,241 118,241 118,242 125,242 125,254 118,254 118,256 125,256 125,268 118,268 118,270 125,270 125,282 118,282 
+			118,284 125,284 125,296 118,296 118,298 125,298 125,307 236,307 236,304 		"/>
+	</g>
+	<rect x="134.2" y="176.5" opacity="0.4" fill="#FFFFFF" width="94" height="9.7"/>
+	<rect x="276.5" y="176.5" opacity="0.4" fill="#FFFFFF" width="94" height="9.7"/>
+	<g>
+		<rect x="283.8" y="193" opacity="0.4" fill="#FFFFFF" width="79.3" height="2"/>
+		<rect x="283.8" y="196.9" opacity="0.4" fill="#FFFFFF" width="79.3" height="2"/>
+		<rect x="283.8" y="200.7" opacity="0.4" fill="#FFFFFF" width="79.3" height="2"/>
+		<rect x="283.8" y="204.6" opacity="0.4" fill="#FFFFFF" width="62.9" height="2"/>
+	</g>
+	<g id="Pie_Chart">
+		<path opacity="0.4" fill="#FFFFFF" d="M322,257.6l39.7-12.4c-5.7-16.6-21.3-28.6-39.7-28.8V257.6z"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M320,260.4v-43.9c-22.8,0.8-41,19.5-41,42.5c0,23.5,19,42.5,42.5,42.5s42.5-19,42.5-42.5
+			c0-4.1-0.6-8-1.7-11.8L320,260.4z"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M100,148v204h168.1l-0.4-4H104V164h292v184h-91.2l2.2,4h93V148H100z M361.3,161.3c-2.7,0-4.8-2.2-4.8-4.8
+			c0-2.7,2.2-4.8,4.8-4.8s4.8,2.2,4.8,4.8C366.1,159.1,364,161.3,361.3,161.3z M375.3,161.3c-2.7,0-4.8-2.2-4.8-4.8
+			c0-2.7,2.2-4.8,4.8-4.8s4.8,2.2,4.8,4.8C380.1,159.1,378,161.3,375.3,161.3z M389.3,161.3c-2.7,0-4.8-2.2-4.8-4.8
+			c0-2.7,2.2-4.8,4.8-4.8s4.8,2.2,4.8,4.8C394.1,159.1,392,161.3,389.3,161.3z"/>
+		<polygon fill="#FFFFFF" points="293.3,352 291.1,348 282.1,348 279,352 		"/>
+	</g>
+	<path opacity="0.4" fill="#FFFFFF" d="M317.5,334h-6.6l-13.2,1.1l3.4,5.9h16.4c1.2,0,2.5-0.6,2.5-1.8v-3.4
+		C320,334.7,318.7,334,317.5,334z"/>
+	<polygon opacity="0.4" fill="#FFFFFF" points="305.8,315 315.4,322 358,322 358,315 	"/>
+	<polygon fill="#FFFFFF" points="322.8,330.5 262.9,283.3 270.9,359.1 287.7,337.7 309.7,377.5 316.7,373.6 294.5,333.4 	"/>
+</g>
+<g id="Shadows__x26__Highlights">
+	<g id="Shadow">
+		<path opacity="0.1" d="M439.7,225.8c0,105.5-93.7,190.9-209.3,190.9c-42.9,0-82.8-11.8-116-32c34.3,34.5,81.6,56,134,56.5
+			c105.1,0.9,191.8-84.1,192.8-189.3C441.3,243.1,440.7,234.3,439.7,225.8z"/>
+		<path fill="none" d="M439.5,226"/>
+		<path fill="none" d="M114.3,384.8L114.3,384.8c33.2,20.1,73.1,31.9,116,31.9"/>
+	</g>
+	<g id="Highlights">
+		<ellipse opacity="0.15" fill="#FFFFFF" cx="250.8" cy="117.5" rx="110.8" ry="47.5"/>
+		<path opacity="0.15" fill="#FFFFFF" d="M123.8,126.6c-2.1-20.7-50.4,53-49.6,85.8c13.2-27.5,41.2-47,66.9-55.3
+			c2.1-0.7,2.5-3.5,0.6-4.6C130.4,145.5,124.5,133.8,123.8,126.6z"/>
+	</g>
+</g>
+</svg>

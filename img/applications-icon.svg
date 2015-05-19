@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="Background" display="none">
+	<rect display="inline" fill="#43D343" width="500" height="500"/>
+</g>
+<g id="Circle">
+	<circle fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" cx="250" cy="250" r="201.5"/>
+</g>
+<g id="Elements">
+	<g id="Phone">
+		<path fill="#FFFFFF" d="M332,101H168c-5,0-9,4-9,9v280c0,5,4,9,9,9h164c5,0,9-4,9-9V110C341,105,337,101,332,101z M226,111.4
+			c0-0.8,0.6-1.4,1.4-1.4h44.3c0.8,0,1.4,0.6,1.4,1.4v1.3c0,0.8-0.6,1.4-1.4,1.4h-44.3c-0.8,0-1.4-0.6-1.4-1.4V111.4z M265,380.7
+			c0,1.2-1,2.3-2.3,2.3h-25.5c-1.2,0-2.3-1-2.3-2.3v-3.5c0-1.2,1-2.3,2.3-2.3h25.5c1.2,0,2.3,1,2.3,2.3V380.7z M326,362H174V126h152
+			V362z"/>
+		<g>
+			<rect x="180.8" y="133" opacity="0.4" fill="#FFFFFF" width="27.1" height="3.5"/>
+			<rect x="180.8" y="140.5" opacity="0.4" fill="#FFFFFF" width="27.1" height="3.5"/>
+			<rect x="180.8" y="148" opacity="0.4" fill="#FFFFFF" width="27.1" height="3.5"/>
+		</g>
+		<g>
+			<circle opacity="0.4" fill="#FFFFFF" cx="317" cy="135.7" r="1.8"/>
+			<circle opacity="0.4" fill="#FFFFFF" cx="317" cy="142.7" r="1.8"/>
+			<circle opacity="0.4" fill="#FFFFFF" cx="317" cy="149.7" r="1.8"/>
+		</g>
+		<g opacity="0.4">
+			<rect x="238.2" y="332.5" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="238.2" y="338.6" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="238.2" y="344.7" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="238.2" y="350.8" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="244.3" y="332.5" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="244.3" y="338.6" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="244.3" y="344.7" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="244.3" y="350.8" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="250.4" y="332.5" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="250.4" y="338.6" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="250.4" y="344.7" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="250.4" y="350.8" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="256.4" y="332.5" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="256.4" y="338.6" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="256.4" y="344.7" fill="#FFFFFF" width="5.4" height="5.4"/>
+			<rect x="256.4" y="350.8" fill="#FFFFFF" width="5.4" height="5.4"/>
+		</g>
+		<path opacity="0.4" fill="#FFFFFF" d="M181,218v53h138v-53H181z M225,264h-40v-40h40V264z M313,264h-82v-4h82V264z M313,258h-82
+			v-5h82V258z M313,251h-82v-4h82V251z M313,243h-82v-19h82V243z"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M181,161v53h138v-53H181z M225,207h-40v-40h40V207z M313,207h-82v-4h82V207z M313,201h-82
+			v-5h82V201z M313,194h-82v-4h82V194z M313,186h-82v-19h82V186z"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M181,275v53h138v-53H181z M225,321h-40v-40h40V321z M313,321h-82v-4h82V321z M313,315h-82
+			v-5h82V315z M313,308h-82v-4h82V308z M313,300h-82v-19h82V300z"/>
+	</g>
+</g>
+<g id="Shadows__x26__Highlights">
+	<g id="Shadow">
+		<path opacity="0.1" d="M439.7,225.8c0,105.5-93.7,190.9-209.3,190.9c-42.9,0-82.8-11.8-116-32c34.3,34.5,81.6,56,134,56.5
+			c105.1,0.9,191.8-84.1,192.8-189.3C441.3,243.1,440.7,234.3,439.7,225.8z"/>
+		<path fill="none" d="M439.5,226"/>
+		<path fill="none" d="M114.3,384.8L114.3,384.8c33.2,20.1,73.1,31.9,116,31.9"/>
+	</g>
+	<g id="Highlights">
+		<ellipse opacity="0.15" fill="#FFFFFF" cx="250.8" cy="117.5" rx="110.8" ry="47.5"/>
+		<path opacity="0.15" fill="#FFFFFF" d="M123.8,126.6c-2.1-20.7-50.4,53-49.6,85.8c13.2-27.5,41.2-47,66.9-55.3
+			c2.1-0.7,2.5-3.5,0.6-4.6C130.4,145.5,124.5,133.8,123.8,126.6z"/>
+	</g>
+</g>
+</svg>

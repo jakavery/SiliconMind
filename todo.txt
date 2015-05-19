@@ -1,0 +1,7 @@
++ Hero button style & hover effect
+- Make sure .png's load when .svg's can't
+- Add links to sources for statistics
+- Shadows under banner icons, rise animation on hover
+- Limit banner icon size in landscape for small screens?
+- Watch "Streamlining Foundation for Launch" video
+

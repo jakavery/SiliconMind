@@ -1,0 +1,153 @@
+/* Mixins ***************************************************************************************/
+.button-transparent {
+    @include button(rem-calc(12), false, false, false, false);
+    //padding: rem-calc(10) rem-calc(30);
+    font-size: 1.4rem;
+    border: 2px solid white;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.button-transparent:hover {
+    background: white;
+} 
+.primary, .indermediate, .secondary {
+    transition: all .2s ease-in-out;
+}    
+.primary:hover {
+    color: $primary-color;   
+}
+.intermediate:hover {
+    color: $intermediate-color;   
+}
+.secondary:hover {
+    color: $secondary-color;   
+}
+
+/* Custom CSS ***********************************************************************************/
+#homepage-hero {
+    background: url("/img/brain-cell-logo.svg") no-repeat top center;
+    height: 100vw;
+    max-height: 80vh;
+    padding: 0 rem-calc(20) 0;
+    position: relative;
+}
+#hero-title {
+    max-width: 100vh;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+#cta-button {
+    transition: all .2s ease-in-out;
+}
+#cta-button:hover {
+    opacity: 0;   
+}
+#cta-wrapper {
+    background: url("/img/cta-button-hover.svg") no-repeat;
+    background-size: cover;
+}
+.down-arrow {
+    display: inline-block;
+    max-width: 50px;
+    padding-bottom: 15px;
+    margin: 0 5vw;
+}
+#what-we-do {
+    display: inline-block;
+    margin-top: 30px;   
+}
+.section-icons img {
+    display: block;
+    margin: auto;
+    max-width: 400px;  
+}
+#websites-section {
+    background: $primary-color;
+    margin-top: rem-calc(70);
+}
+#applications-section {
+    background: $intermediate-color;
+}
+#solutions-section {
+    background: $secondary-color;
+}
+#websites-section, #applications-section, #solutions-section {
+    padding-top: rem-calc(30);  
+    
+    h2 {
+        color: white;   
+    }
+    
+    p, ul {
+        font-size: 1.2rem; 
+    }
+    @media (max-width: 642px) {
+        p {
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.7rem;   
+        }
+    }   
+    @media #{$small-only} {
+        h2 {
+            font-size: 1.5rem;   
+        } 
+    }
+}
+#did-you-know {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: rem-calc(15);
+    padding: rem-calc(10) rem-calc(20) 0;
+    
+    p {
+        padding-bottom: rem-calc(10); 
+        text-align: left;
+        line-height: 1.5rem;
+    }
+    @media #{$small-only} {
+        p {
+            font-size: .9rem;  
+            line-height: 1rem;
+        }
+        h3 {
+            font-size: 1.2rem;   
+        }
+    }
+}
+
+
+/* Small Only ************************************************************************************/
+@media #{$small-only} {  
+    .down-arrow {
+        max-width: 30px;  
+        padding-bottom: 5px;
+    }
+    h2 {
+        font-size: rem-calc(19);   
+    }
+    h3 {
+        font-size: rem-calc(14);   
+    }
+}
+
+/* Medium Up ************************************************************************************/
+@media #{$medium-up} {
+    .valign-middle {
+        display: table;
+    }
+
+    .valign-middle .columns {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .valign-middle .columns,
+    .valign-middle [class*="column"] + [class*="column"]:last-child {
+        float: none;
+    }   
+}
+
+
