@@ -95,8 +95,11 @@ h3 > a {
     }
     
     @media (max-width: 642px) {
-        p {
+        p, ul {
             text-align: center;
+        }
+        ul {
+            list-style-position: inside;   
         }
         h2 {
             font-size: 1.7rem;   
@@ -133,7 +136,7 @@ h3 > a {
     
     margin-top: 30px;
     
-    @media (max-width: 360px) {
+    @media (max-width: 355px) {
         font-size: 1rem;   
     }
     @media #{$large-up} {
