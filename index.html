@@ -36,19 +36,19 @@
             </div><!-- What We Do row -->
                 <div class="row">
                     <div class="small-4 text-center columns">
-                        <a href="#"><img class="rise" src="img/websites-icon-filled.svg" alt="Websites"/></a>
-                        <img class="icon-shadow" src="img/icon-shadow.png"/>
-                        <h3><a class="primary" href="#">Websites</a></h3>
+                        <a href="#"><img id="websites-img" src="img/websites-icon-filled.svg" alt="Websites"/></a>
+                        <img id="websites-shadow" class="icon-shadow" src="img/icon-shadow.png"/>
+                        <h3><a class="icon-link primary" href="#">Websites</a></h3>
                     </div>
                     <div class="small-4 text-center columns">
-                        <a href="#"><img class="rise" src="img/applications-icon-filled.svg" alt="Applications"/></a>
-                        <img class="icon-shadow" src="img/icon-shadow.png"/>
-                        <h3><a class="intermediate" href="#">Applications</a></h3>
+                        <a href="#"><img id="applications-img" src="img/applications-icon-filled.svg" alt="Applications"/></a>
+                        <img id="applications-shadow" class="icon-shadow" src="img/icon-shadow.png"/>
+                        <h3><a class="icon-link intermediate" href="#">Applications</a></h3>
                     </div>
                     <div class="small-4 text-center columns">
-                        <a href="#"><img class="rise" src="img/solutions-icon-filled.svg" alt="Solutions"/></a>
-                        <img class="icon-shadow" src="img/icon-shadow.png"/>
-                        <h3><a class="secondary" href="#">Solutions</a></h3>
+                        <a href="#"><img id="solutions-img" src="img/solutions-icon-filled.svg" alt="Solutions"/></a>
+                        <img id="solutions-shadow" class="icon-shadow" src="img/icon-shadow.png"/>
+                        <h3><a class="icon-link secondary" href="#">Solutions</a></h3>
                     </div>
                 </div>
         </section><!-- banner -->
@@ -119,9 +119,17 @@
                 </div>
             </div>  
         </section><!-- Solutions -->
+        <section><!-- The Team -->
+            <div class="row">
+                <div class="small-10 small-centered text-center columns">
+                    <p id="team-paragraph">We're a passionate team of<br class="show-for-small-only"> designers and developers,<br> and we love what we do.</p>
+                </div>
+            </div>
+        </section><!-- The Team -->
         
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/jquery.transit/jquery.transit.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="js/app.js"></script>
     </body>
