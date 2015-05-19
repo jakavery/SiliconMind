@@ -36,4 +36,12 @@ $('#solutions-img, #solutions-shadow, .icon-link.secondary').hover(function() {
 });
 
 
+// Team photos box-shadow on hover
+
+$('.team-photo').find('a').hover(function() {
+    $(this).closest('figure').find('img').stop().transition({'box-shadow':'0 0 10px black'}, 200, 'ease');  
+}, function() {
+    $(this).closest('figure').find('img').stop().transition({'box-shadow':'0 0 0 black'}, 200, 'ease');
+});
+
   

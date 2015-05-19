@@ -143,6 +143,21 @@ h3 > a {
         font-size: 1.5rem;
     }
 }
+.team-photos-list {
+    
+    a {
+        color: black;   
+    }
+    figcaption {
+        font-size: 1.4rem;  
+    }
+    
+    p {
+        line-height: .5rem;
+        font-family: $sansation-light-italic;   
+    }
+    
+}
 
 /* Small Only ************************************************************************************/
 @media #{$small-only} {  
