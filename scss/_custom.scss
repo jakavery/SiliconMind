@@ -23,6 +23,13 @@
     color: $secondary-color;   
 }
 
+.rise {
+    transition: transform .2s ease-in-out;
+}    
+.rise:hover {
+    transform: translateY(-3%);
+}
+
 /* Custom CSS ***********************************************************************************/
 #homepage-hero {
     background: url("/img/brain-cell-logo.svg") no-repeat top center;
