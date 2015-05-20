@@ -39,14 +39,18 @@
     left: 0;
     right: 0;
 }
-#cta-button {
+#cta-button, #meet-the-team-button {
     transition: all .2s ease-in-out;
 }
-#cta-button:hover {
+#cta-button:hover, #meet-the-team-button:hover {
     opacity: 0;   
 }
 #cta-wrapper {
     background: url("/img/cta-button-hover.svg") no-repeat;
+    background-size: cover;
+}
+#meet-the-team-wrapper {
+    background: url("/img/meet-the-team-button-hover.svg") no-repeat;
     background-size: cover;
 }
 .down-arrow {
