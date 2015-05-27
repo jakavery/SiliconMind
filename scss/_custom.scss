@@ -185,11 +185,8 @@ footer {
 }
 .contact-icons img:hover {
     background: rgba(0,0,0,.2); 
-}
-.inline-list {
-    display: table;
-    margin: 0 auto;
-}
+} 
+
 
 /* Small Only ************************************************************************************/
 @media #{$small-only} {  
@@ -200,7 +197,7 @@ footer {
     h2 {
         font-size: rem-calc(19);   
     }
-    h3 {
+    h3, footer p {
         font-size: rem-calc(14);   
     }
 }
