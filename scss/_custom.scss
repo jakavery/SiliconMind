@@ -162,6 +162,18 @@ h3 > a {
     }
     
 }
+footer {
+    background: DimGray; 
+    margin-top: 30px;
+}
+.contact-icons img {
+    margin: 10%;
+    border-radius: 22px;
+    transition: all .2s ease-in-out;
+}
+.contact-icons img:hover {
+    background: rgba(0,0,0,.2); 
+}
 
 /* Small Only ************************************************************************************/
 @media #{$small-only} {  
