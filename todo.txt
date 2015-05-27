@@ -4,4 +4,5 @@
 + Shadows under banner icons, rise animation on hover
 + Limit banner icon size in landscape for small screens?
 - Watch "Streamlining Foundation for Launch" video
+- Make "Back to Top" link change color on up-arrow hover
 

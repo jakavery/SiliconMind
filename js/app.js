@@ -30,5 +30,3 @@ $('.team-photo').find('a').hover(function() {
 }, function() {
     $(this).closest('figure').find('img').stop().transition({'box-shadow':'0 0 0 black'}, 200, 'ease');
 });
-
-  
