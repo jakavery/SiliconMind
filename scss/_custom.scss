@@ -192,6 +192,11 @@ li.tab-title {
     width: 25%;
     text-align: center;
 }
+ul.accordion {
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+}
 
 /* Small Only ************************************************************************************/
 @media #{$small-only} {  

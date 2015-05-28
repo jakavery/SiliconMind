@@ -33,27 +33,58 @@
                 </ul>
             </section>
         </nav>
-        
-        <ul class="tabs" data-tab>
-            <li class="tab-title active"><a href="#panel1">Website<br class="hide-for-large-up"/> Development</a></li>
-            <li class="tab-title"><a href="#panel2">Mobile<br class="hide-for-large-up"/> Applications</a></li>
-            <li class="tab-title"><a href="#panel3">Software<br class="hide-for-large-up"/> Solutions</a></li>
-            <li class="tab-title"><a href="#panel4">Design<br class="hide-for-large-up"/> Gallery</a></li>
-        </ul>
-        <div class="tabs-content">
-            <div class="content active" id="panel1">
-                <h1>Website Development</h1>
-            </div>
-            <div class="content" id="panel2">
-                <h1>Mobile Applications</h1>
-            </div>
-            <div class="content" id="panel3">
-                <h1>Software Solutions</h1>
-            </div>
-            <div class="content" id="panel4">
-                <h1>Design Gallery</h1>
-            </div>
+        <!-- Accordion for small screens -->
+        <div class="hide-for-medium-up">
+            <ul class="accordion" data-accordion>
+                <li class="accordion-navigation">
+                    <a href="#panel1a">Website Development</a>
+                    <div id="panel1a" class="content active">
+                        <h1>Website Development</h1>
+                    </div>
+                </li>
+                <li class="accordion-navigation">
+                    <a href="#panel2a">Mobile Applications</a>
+                    <div id="panel2a" class="content">
+                        <h1>Mobile Applications</h1>
+                    </div>
+                </li>
+                <li class="accordion-navigation">
+                    <a href="#panel3a">Software Solutions</a>
+                    <div id="panel3a" class="content">
+                        <h1>Software Solutions</h1>
+                    </div>
+                </li>
+                <li class="accordion-navigation">
+                    <a href="#panel4a">Design Gallery</a>
+                    <div id="panel4a" class="content">
+                        <h1>Design Gallery</h1>
+                    </div>
+                </li>
+            </ul>
         </div>
+        <!-- Tabs for medium-up -->
+        <div class="show-for-medium-up">
+            <ul class="tabs" data-tab>
+                <li class="tab-title active"><a href="#panel1">Website<br class="hide-for-large-up"/> Development</a></li>
+                <li class="tab-title"><a href="#panel2">Mobile<br class="hide-for-large-up"/> Applications</a></li>
+                <li class="tab-title"><a href="#panel3">Software<br class="hide-for-large-up"/> Solutions</a></li>
+                <li class="tab-title"><a href="#panel4">Design<br class="hide-for-large-up"/> Gallery</a></li>
+            </ul>
+            <div class="tabs-content">
+                <div class="content active" id="panel1">
+                    <h1>Website Development</h1>
+                </div>
+                <div class="content" id="panel2">
+                    <h1>Mobile Applications</h1>
+                </div>
+                <div class="content" id="panel3">
+                    <h1>Software Solutions</h1>
+                </div>
+                <div class="content" id="panel4">
+                    <h1>Design Gallery</h1>
+                </div>
+            </div>
+        </div><!-- tabs wrapper -->
         
         <footer>
             <div class="row"><!-- Back to Top row -->

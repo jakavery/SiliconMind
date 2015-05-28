@@ -5,4 +5,5 @@
 + Limit banner icon size in landscape for small screens?
 - Watch "Streamlining Foundation for Launch" video
 - Make "Back to Top" link change color on up-arrow hover
+- Make current tab / accordion page transfer when you change screen sizes / orientation
 
