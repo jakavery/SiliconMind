@@ -1391,7 +1391,7 @@ $button-font-family: $sansation-regular;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: $oil;
+// $topbar-bg-color: transparent;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1413,8 +1413,8 @@ $button-font-family: $sansation-regular;
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-hover: $oil;
 // $topbar-link-bg-color-hover: $charcoal;
-// $topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-bg-active: $gradient;
+$topbar-link-bg-active-hover: $gradient;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: ($topbar-height / 3);
