@@ -178,14 +178,19 @@ footer {
 #back-to-top:hover {
     color: $primary-color;   
 }
-.contact-icons img {
-    margin: 10%;
-    border-radius: 22px;
-    transition: all .2s ease-in-out;
+.contact-icons {
+
+    img {
+        margin: 10%;
+        border-radius: 22px;
+        transition: all .2s ease-in-out;
+    }
+    
+    img:hover {
+        background: rgba(0,0,0,.2); 
+    } 
 }
-.contact-icons img:hover {
-    background: rgba(0,0,0,.2); 
-} 
+ 
 li.tab-title {
     margin: 0;
     padding: 0;
@@ -212,6 +217,32 @@ ul.accordion {
 }
 #websites-tab img, #applications-tab img, #solutions-tab img {
     width: 40%;
+}
+.accordion-content {
+
+    h2 {
+        font-family: $sansation-light-italic;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    p {
+        margin-left: 1rem; 
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    p:not(:last-child) {
+        border-bottom: 1px solid DimGray;   
+    }
+    
+    @media #{$small-only} {
+        p {
+            font-size: rem-calc(16);   
+        }
+    }
 }
 
 
