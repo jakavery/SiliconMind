@@ -197,6 +197,23 @@ ul.accordion {
     padding: 0;
     width: 100%;   
 }
+.accordion h1, .tabs-content h1 {
+    color: white;  
+    padding-bottom: 15px;
+}
+#websites-accordion, #websites-tab {
+    background: $primary-color;
+}
+#applications-accordion, #applications-tab {
+    background: $intermediate-color;
+}
+#solutions-accordion, #solutions-tab {
+    background: $secondary-color;
+}
+#websites-tab img, #applications-tab img, #solutions-tab img {
+    width: 40%;
+}
+
 
 /* Small Only ************************************************************************************/
 @media #{$small-only} {  
