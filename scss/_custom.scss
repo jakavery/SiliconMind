@@ -219,11 +219,11 @@ ul.accordion {
     width: 40%;
 }
 .accordion-content {
-
     h2 {
         font-family: $sansation-light-italic;
         padding-left: 1rem;
         padding-right: 1rem;
+        text-align: center;
     }
     
     p {
@@ -242,6 +242,25 @@ ul.accordion {
         p {
             font-size: rem-calc(16);   
         }
+    }
+}
+.tab-content {
+    h2 {
+        font-family: $sansation-light-italic;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    
+    @media #{$large-up} {
+        h2 {
+            font-size: 2rem;   
+        }
+    }
+    
+    p { 
+        margin: 20px 0;
+        padding-left: 20px;
+        border-left: 1px solid DimGray;
     }
 }
 
