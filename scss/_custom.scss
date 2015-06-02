@@ -197,70 +197,58 @@ li.tab-title {
     width: 25%;
     text-align: center;
 }
-ul.accordion {
-    margin: 0;
-    padding: 0;
-    width: 100%;   
-}
-.accordion h1, .tabs-content h1 {
+.accordion h1, {
     color: white;  
     padding-bottom: 15px;
+    display: inline;
 }
-#websites-accordion, #websites-tab {
+#websites-accordion {
     background: $primary-color;
 }
-#applications-accordion, #applications-tab {
+#applications-accordion {
     background: $intermediate-color;
 }
-#solutions-accordion, #solutions-tab {
+#solutions-accordion {
     background: $secondary-color;
 }
-#websites-tab img, #applications-tab img, #solutions-tab img {
-    width: 40%;
-}
-.accordion-content {
-    h2 {
-        font-family: $sansation-light-italic;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-    }
-    
-    p {
-        margin-left: 1rem; 
-        margin-right: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    p:not(:last-child) {
-        border-bottom: 1px solid DimGray;   
-    }
-    
-    @media #{$small-only} {
+.accordion-content { 
+        h2 {
+            font-family: $sansation-light-italic;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+        }
+
         p {
-            font-size: rem-calc(16);   
+            margin-left: 1rem; 
+            margin-right: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            font-size: rem-calc(16);
+        }
+        div.row:not(:last-child) p {
+            border-bottom: 1px solid DimGray;   
+        }
+    @media #{$medium-up} {
+        h2 {
+            font-family: $sansation-light-italic;
+            text-align: right;
+            font-size: 1.3rem;
+        }
+        p { 
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 1px solid DimGray;
+        }
+        div.row:not(:last-child) p {
+            border-bottom: none;   
         }
     }
-}
-.tab-content {
-    h2 {
-        font-family: $sansation-light-italic;
-        text-align: right;
-        font-size: 1.5rem;
-    }
-    
     @media #{$large-up} {
         h2 {
-            font-size: 2rem;   
+            font-size: 1.8rem;   
         }
-    }
-    
-    p { 
-        margin: 20px 0;
-        padding-left: 20px;
-        border-left: 1px solid DimGray;
     }
 }
 .content div a img {
@@ -333,7 +321,11 @@ ul.accordion {
     .valign-middle .columns,
     .valign-middle [class*="column"] + [class*="column"]:last-child {
         float: none;
-    }   
+    }  
+    
+    #websites-accordion img, #applications-accordion img, #solutions-accordion img {
+        width: 50%;
+    }
 }
 
 

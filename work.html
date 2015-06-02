@@ -33,171 +33,120 @@
                 </ul>
             </section>
         </nav>
-        <!-- Accordion for small screens -->
-        <div class="hide-for-medium-up">
-            <ul class="accordion" data-accordion role="tablist">
-                <li class="accordion-navigation">
-                    <a href="#panel1a" role="tab" id="panel1a-heading" aria-controls="panel1a">Website Development</a>
-                    <section id="panel1a" class="content active" role="tabpanel" aria-labelledby="panel1a-heading">
-                        <div id="websites-accordion" class="text-center">
+        
+        <ul class="tabs show-for-medium-up" data-tab role="tablist" data-options="deep_linking: true">
+            <li class="tab-title active" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="true">Website<br class="hide-for-large-up"/> Development</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Mobile<br class="hide-for-large-up"/> Applications</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Software<br class="hide-for-large-up"/> Solutions</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Design<br class="hide-for-large-up"/> Gallery</a></li>
+        </ul>
+        
+        <dl class="accordion" data-accordion role="tablist">
+            <dd class="accordion-navigation">
+                <a href="#panel1" class="show-for-small-only" role="tab" id="panel1-heading" aria-controls="panel1">Website Development</a>
+                <section id="panel1" class="content active" role="tabpanel" aria-labelledby="panel1-heading">
+                    <div id="websites-accordion" class="text-center">
+                        <div class="row">
                             <img src="img/websites-flat.svg" alt="Website Development"/>
-                            <h1>Website<br>Development</h1>
                         </div>
-                        <div class="accordion-content">
-                            <h2>Keep your site ahead of the competition</h2>
-                            <p>With a site built on the web's most powerful and flexible platforms, managing quality content and keeping up with the latest features is a breeze.</p>
-                            <h2>The web moves fast, and so do we</h2>
-                            <p>We keep up with the latest development trends so that we can help you place a fast, modern website in front of your customers.</p>
-                            <h2>Lots of screens - not a problem</h2>
-                            <p>Whether it be a laptop, a tablet, a mobile phone, or something in between, you can be sure that people are viewing your website on a wide range of screen sizes. We design your site to work great and look awesome on all of them.</p>
+                        <h1><span class="show-for-small-only">&nbsp;</span>Website <br class="show-for-small-only">Development</h1>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-5 large-4 columns">
+                                <h2>Keep your site ahead<br>of the competition</h2>
+                            </div>
+                            <div class="medium-7 large-8 columns">
+                                <p>With a site built on the web's most powerful and flexible platforms, managing quality content and keeping up with the latest features is a breeze.</p>
+                            </div>
                         </div>
-                    </section>
-                </li>
-                <li class="accordion-navigation">
-                    <a href="#panel2a" role="tab" id="panel2a-heading" aria-controls="panel2a">Mobile Applications</a>
-                    <section id="panel2a" class="content" role="tabpanel" aria-labelledby="panel2a-heading">
-                        <div id="applications-accordion" class="text-center">
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-5 large-4 columns">
+                                <h2>The web moves fast,<br>and so do we</h2>
+                            </div>
+                            <div class="medium-7 large-8 columns">
+                                <p>We keep up with the latest development trends so that we can help you place a fast, modern website in front of your customers.</p>
+                            </div>
+                        </div>
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-5 large-4 columns">
+                                <h2>Lots of screens -<br>not a problem</h2>
+                            </div>
+                            <div class="medium-7 large-8 columns">
+                                <p>Whether it be a laptop, a tablet, a mobile phone, or something in between, you can be sure that people are viewing your website on a wide range of screen sizes. We design your site to work great and look awesome on all of them.</p>
+                            </div>
+                        </div>
+                        <div id="websites-next" class="row text-center show-for-medium-up">
+                            <a href="#panel2">Mobile Applications<img src="img/right-arrow.svg"/></a>
+                        </div>
+                    </div>
+                </section>
+                <a href="#panel2" class="show-for-small-only" role="tab" id="panel2-heading" aria-controls="panel2">Mobile Applications</a>
+                <section id="panel2" class="content" role="tabpanel" aria-labelledby="panel2-heading">
+                    <div id="applications-accordion" class="text-center">
+                        <div class="row">
                             <img src="img/applications-flat.svg" alt="Mobile Applications"/>
-                            <h1>Mobile<br>Applications</h1>
                         </div>
-                        <div class="accordion-content">
-                            <h2>The average population spends over two hours using mobile apps each day</h2>
-                            <p>Remain in front of your customers or audience with an engaging mobile application.</p>
-                            <h2>A stunning mobile app begins with great design</h2>
-                            <p>We'll work with you to create a wonderful user experience that's perfectly tailored to your audience.</p>
+                        <h1><span class="show-for-small-only">&nbsp;</span>Mobile <br class="show-for-small-only">Applications</h1>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-6 large-7 columns">
+                                <h2>The average population<br class="hide-for-large-up"> spends over two hours<br class="hide-for-large-up"> using mobile apps each day</h2>
+                            </div>
+                            <div class="medium-6 large-5 columns">
+                                <p>Remain in front of your customers or audience with an engaging mobile application.</p>
+                            </div>
                         </div>
-                    </section>
-                </li>
-                <li class="accordion-navigation">
-                    <a href="#panel3a" role="tab" id="panel3a-heading" aria-controls="panel3a">Software Solutions</a>
-                    <section id="panel3a" class="content" role="tabpanel" aria-labelledby="panel3a-heading">
-                        <div id="solutions-accordion" class="text-center">
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-6 large-7 columns">
+                                <h2>A stunning mobile app<br> begins with great design</h2>
+                            </div>
+                            <div class="medium-6 large-5 columns">
+                                <p>We'll work with you to create a wonderful user experience that's perfectly tailored to your audience.</p>
+                            </div>
+                        </div>
+                        <div id="applications-next" class="row text-center show-for-medium-up">
+                            <a href="#panel3">Software Solutions<img src="img/right-arrow.svg"/></a>
+                        </div>
+                    </div>
+                </section>
+                <a href="#panel3" class="show-for-small-only" role="tab" id="panel3-heading" aria-controls="panel3">Software Solutions</a>
+                <section id="panel3" class="content" role="tabpanel" aria-labelledby="panel3-heading">
+                    <div id="solutions-accordion" class="text-center">
+                        <div class="row">
                             <img src="img/solutions-flat.svg" alt="Software Solutions"/>
-                            <h1>Software<br>Solutions</h1>
                         </div>
-                        <div class="accordion-content">
-                            <h2>Let technology work for you, not against you</h2>
-                            <p>Innovative software solutions allow you to optimize your business and simplify your workflow.</p>
-                            <h2>Custom problems need custom solutions</h2>
-                            <p>We'll work closely with you and your company to understand your goals and prioritize functionality so that we can come up with the best solution for your needs.</p>
-                            <h2>Cross-platform efficiency</h2>
-                            <p>We have the development experience you need to create a software solution that works seemlessly across all of your employee's devices.</p>
-                        </div>
-                    </section>
-                </li>
-                <li class="accordion-navigation">
-                    <a href="#panel4a" role="tab" id="panel4a-heading" aria-controls="panel4a">Design Gallery</a>
-                    <section id="panel4a" class="content" role="tabpanel" aria-labelledby="panel4a-heading">
-                        <h1>Design<br>Gallery</h1>
-                    </section>
-                </li>
-            </ul>
-        </div>
-        <!-- Tabs for medium-up -->
-        <div class="show-for-medium-up">
-            <ul class="tabs" data-tab role="tablist" data-options="deep_linking: true">
-                <li class="tab-title active" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="true">Website<br class="hide-for-large-up"/> Development</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Mobile<br class="hide-for-large-up"/> Applications</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Software<br class="hide-for-large-up"/> Solutions</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Design<br class="hide-for-large-up"/> Gallery</a></li>
-            </ul>
-            <div class="tabs-content">
-                <section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
-                    <div id="websites-tab" class="text-center">
-                        <img src="img/websites-flat.svg" alt="Website Development"/>
-                        <h1>Website Development</h1>
+                        <h1><span class="show-for-small-only">&nbsp;</span>Software <br class="show-for-small-only">Solutions</h1>
                     </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-4 columns">
-                            <h2>Keep your site ahead<br>of the competition</h2>
+                    <div class="accordion-content">
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-6 large-5 columns">
+                                <h2>Let technology work<br>for you, not against you</h2>
+                            </div>
+                            <div class="medium-6 large-7 columns">
+                                <p>Innovative software solutions allow you to optimize your business and simplify your workflow.</p>
+                            </div>
                         </div>
-                        <div class="medium-7 large-8 columns">
-                            <p>With a site built on the web's most powerful and flexible platforms, managing quality content and keeping up with the latest features is a breeze.</p>
+                        <div class="row valign-middle tab-content">
+                            <div class="medium-6 large-5 columns">
+                                <h2>Custom problems need<br>custom solutions</h2>
+                            </div>
+                            <div class="medium-6 large-7 columns">
+                                <p>We'll work closely with you and your company to understand your goals and prioritize functionality so that we can come up with the best solution for your needs.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-4 columns">
-                            <h2>The web moves fast,<br>and so do we</h2>
+                        <div id="solutions-next" class="row text-center show-for-medium-up">
+                            <a href="#panel4">Design Gallery<img src="img/right-arrow.svg"/></a>
                         </div>
-                        <div class="medium-7 large-8 columns">
-                            <p>We keep up with the latest development trends so that we can help you place a fast, modern website in front of your customers.</p>
-                        </div>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-4 columns">
-                            <h2>Lots of screens -<br>not a problem</h2>
-                        </div>
-                        <div class="medium-7 large-8 columns">
-                            <p>Whether it be a laptop, a tablet, a mobile phone, or something in between, you can be sure that people are viewing your website on a wide range of screen sizes. We design your site to work great and look awesome on all of them.</p>
-                        </div>
-                    </div>
-                    <div id="websites-next" class="row text-center">
-                        <a href="#panel2">Mobile Applications<img src="img/right-arrow.svg"/></a>
                     </div>
                 </section>
-                <section role="tabpanel" aria-hidden="true" class="content" id="panel2">
-                    <div id="applications-tab" class="text-center">
-                        <img src="img/applications-flat.svg" alt="Mobile Applications"/>
-                        <h1>Mobile Applications</h1>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-6 large-7 columns">
-                            <h2>The average population spends over two hours using mobile apps each day</h2>
-                        </div>
-                        <div class="medium-6 large-5 columns">
-                            <p>Remain in front of your customers or audience with an engaging mobile application.</p>
-                        </div>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-6 large-7 columns">
-                            <h2>A stunning mobile app begins with great design</h2>
-                        </div>
-                        <div class="medium-6 large-5 columns">
-                            <p>We'll work with you to create a wonderful user experience that's perfectly tailored to your audience.</p>
-                        </div>
-                    </div>
-                    <div id="applications-next" class="row text-center">
-                        <a href="#panel3">Software Solutions<img src="img/right-arrow.svg"/></a>
-                    </div>
+                <a href="#panel4" class="show-for-small-only" role="tab" id="panel4-heading" aria-controls="panel4">Design Gallery</a>
+                <section id="panel4" class="content" role="tabpanel" aria-labelledby="panel4-heading">
+                    <h1><span class="show-for-small-only">&nbsp;</span>Design <br class="show-for-small-only">Gallery</h1>
                 </section>
-                <section role="tabpanel" aria-hidden="true" class="content" id="panel3">
-                    <div id="solutions-tab" class="text-center">
-                        <img src="img/solutions-flat.svg" alt="Software Solutions"/>
-                        <h1>Software Solutions</h1>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-5 columns">
-                            <h2>Let technology work<br>for you, not against you</h2>
-                        </div>
-                        <div class="medium-7 large-7 columns">
-                            <p>Innovative software solutions allow you to optimize your business and simplify your workflow.</p>
-                        </div>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-5 columns">
-                            <h2>Custom problems need<br>custom solutions</h2>
-                        </div>
-                        <div class="medium-7 large-7 columns">
-                            <p>We'll work closely with you and your company to understand your goals and prioritize functionality so that we can come up with the best solution for your needs.</p>
-                        </div>
-                    </div>
-                    <div class="row valign-middle tab-content">
-                        <div class="medium-5 large-5 columns">
-                            <h2>Cross-platform efficiency</h2>
-                        </div>
-                        <div class="medium-7 large-7 columns">
-                            <p>We have the development experience you need to create a software solution that works seemlessly across all of your employee's devices.</p>
-                        </div>
-                    </div>
-                    <div id="solutions-next" class="row text-center">
-                        <a href="#panel4">Design Gallery<img src="img/right-arrow.svg"/></a>
-                    </div>
-                </section>
-                <section role="tabpanel" aria-hidden="true" class="content" id="panel4">
-                    <h1>Design Gallery</h1>
-                </section>
-            </div>
-        </div><!-- tabs wrapper -->
+            </dd>
+        </dl>
         
         <footer>
             <div class="row"><!-- Back to Top row -->

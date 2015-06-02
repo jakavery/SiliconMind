@@ -35,6 +35,6 @@ $('.team-photo').find('a').hover(function() {
 $(document).foundation('accordion', {
     callback: function (el){
         var containerPos = $(el).parent().offset().top;
-        $('html, body').animate({scrollTop: containerPos}, 200);
+        $('html, body').animate({scrollTop: containerPos}, 300);
     }
 });
