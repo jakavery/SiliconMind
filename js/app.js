@@ -30,3 +30,11 @@ $('.team-photo').find('a').hover(function() {
 }, function() {
     $(this).closest('figure').find('img').stop().transition({'box-shadow':'0 0 0 black'}, 200, 'ease');
 });
+
+// Accordion jump to top on active
+$(document).foundation('accordion', {
+    callback: function (el){
+        var containerPos = $(el).parent().offset().top;
+        $('html, body').animate({scrollTop: containerPos}, 200);
+    }
+});
