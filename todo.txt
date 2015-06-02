@@ -7,5 +7,6 @@
 - Make "Back to Top" link change color on up-arrow hover
 - Make current tab / accordion page transfer when you change screen sizes / orientation
 - Top-bar hover effects
-- Next Tab links on Work page (JS prolly)
++ Next Tab links on Work page (JS prolly)
+- Make sure tabs and panels are accessible with tab-index and such
 

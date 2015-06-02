@@ -35,10 +35,10 @@
         </nav>
         <!-- Accordion for small screens -->
         <div class="hide-for-medium-up">
-            <ul class="accordion" data-accordion>
+            <ul class="accordion" data-accordion role="tablist">
                 <li class="accordion-navigation">
-                    <a href="#panel1a">Website Development</a>
-                    <div id="panel1a" class="content active">
+                    <a href="#panel1a" role="tab" id="panel1a-heading" aria-controls="panel1a">Website Development</a>
+                    <section id="panel1a" class="content active" role="tabpanel" aria-labelledby="panel1a-heading">
                         <div id="websites-accordion" class="text-center">
                             <img src="img/websites-flat.svg" alt="Website Development"/>
                             <h1>Website<br>Development</h1>
@@ -51,11 +51,11 @@
                             <h2>Lots of screens - not a problem</h2>
                             <p>Whether it be a laptop, a tablet, a mobile phone, or something in between, you can be sure that people are viewing your website on a wide range of screen sizes. We design your site to work great and look awesome on all of them.</p>
                         </div>
-                    </div>
+                    </section>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel2a">Mobile Applications</a>
-                    <div id="panel2a" class="content">
+                    <a href="#panel2a" role="tab" id="panel2a-heading" aria-controls="panel2a">Mobile Applications</a>
+                    <section id="panel2a" class="content" role="tabpanel" aria-labelledby="panel2a-heading">
                         <div id="applications-accordion" class="text-center">
                             <img src="img/applications-flat.svg" alt="Mobile Applications"/>
                             <h1>Mobile<br>Applications</h1>
@@ -66,11 +66,11 @@
                             <h2>A stunning mobile app begins with great design</h2>
                             <p>We'll work with you to create a wonderful user experience that's perfectly tailored to your audience.</p>
                         </div>
-                    </div>
+                    </section>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel3a">Software Solutions</a>
-                    <div id="panel3a" class="content">
+                    <a href="#panel3a" role="tab" id="panel3a-heading" aria-controls="panel3a">Software Solutions</a>
+                    <section id="panel3a" class="content" role="tabpanel" aria-labelledby="panel3a-heading">
                         <div id="solutions-accordion" class="text-center">
                             <img src="img/solutions-flat.svg" alt="Software Solutions"/>
                             <h1>Software<br>Solutions</h1>
@@ -83,26 +83,26 @@
                             <h2>Cross-platform efficiency</h2>
                             <p>We have the development experience you need to create a software solution that works seemlessly across all of your employee's devices.</p>
                         </div>
-                    </div>
+                    </section>
                 </li>
                 <li class="accordion-navigation">
-                    <a href="#panel4a">Design Gallery</a>
-                    <div id="panel4a" class="content">
+                    <a href="#panel4a" role="tab" id="panel4a-heading" aria-controls="panel4a">Design Gallery</a>
+                    <section id="panel4a" class="content" role="tabpanel" aria-labelledby="panel4a-heading">
                         <h1>Design<br>Gallery</h1>
-                    </div>
+                    </section>
                 </li>
             </ul>
         </div>
         <!-- Tabs for medium-up -->
         <div class="show-for-medium-up">
-            <ul class="tabs" data-tab data-options="deep_linking: true">
-                <li class="tab-title active"><a href="#panel1">Website<br class="hide-for-large-up"/> Development</a></li>
-                <li class="tab-title"><a href="#panel2">Mobile<br class="hide-for-large-up"/> Applications</a></li>
-                <li class="tab-title"><a href="#panel3">Software<br class="hide-for-large-up"/> Solutions</a></li>
-                <li class="tab-title"><a href="#panel4">Design<br class="hide-for-large-up"/> Gallery</a></li>
+            <ul class="tabs" data-tab role="tablist" data-options="deep_linking: true">
+                <li class="tab-title active" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="true">Website<br class="hide-for-large-up"/> Development</a></li>
+                <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Mobile<br class="hide-for-large-up"/> Applications</a></li>
+                <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Software<br class="hide-for-large-up"/> Solutions</a></li>
+                <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Design<br class="hide-for-large-up"/> Gallery</a></li>
             </ul>
             <div class="tabs-content">
-                <div class="content active" id="panel1">
+                <section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
                     <div id="websites-tab" class="text-center">
                         <img src="img/websites-flat.svg" alt="Website Development"/>
                         <h1>Website Development</h1>
@@ -134,8 +134,8 @@
                     <div id="websites-next" class="row text-center">
                         <a href="#panel2">Mobile Applications<img src="img/right-arrow.svg"/></a>
                     </div>
-                </div>
-                <div class="content" id="panel2">
+                </section>
+                <section role="tabpanel" aria-hidden="true" class="content" id="panel2">
                     <div id="applications-tab" class="text-center">
                         <img src="img/applications-flat.svg" alt="Mobile Applications"/>
                         <h1>Mobile Applications</h1>
@@ -159,8 +159,8 @@
                     <div id="applications-next" class="row text-center">
                         <a href="#panel3">Software Solutions<img src="img/right-arrow.svg"/></a>
                     </div>
-                </div>
-                <div class="content" id="panel3">
+                </section>
+                <section role="tabpanel" aria-hidden="true" class="content" id="panel3">
                     <div id="solutions-tab" class="text-center">
                         <img src="img/solutions-flat.svg" alt="Software Solutions"/>
                         <h1>Software Solutions</h1>
@@ -192,10 +192,10 @@
                     <div id="solutions-next" class="row text-center">
                         <a href="#panel4">Design Gallery<img src="img/right-arrow.svg"/></a>
                     </div>
-                </div>
-                <div class="content" id="panel4">
+                </section>
+                <section role="tabpanel" aria-hidden="true" class="content" id="panel4">
                     <h1>Design Gallery</h1>
-                </div>
+                </section>
             </div>
         </div><!-- tabs wrapper -->
         
