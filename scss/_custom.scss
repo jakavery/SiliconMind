@@ -263,6 +263,46 @@ ul.accordion {
         border-left: 1px solid DimGray;
     }
 }
+.content div a img {
+    width: 15px;
+    margin-left: 20px;
+}
+#websites-next {
+    margin-top: 20px;
+    
+    a {
+        font-size: 1.4rem; 
+        color: $primary-color;
+        transition: all .2s ease-in-out;
+    }
+    a:hover {
+        color: $intermediate-color;   
+    }
+}
+#applications-next {
+    margin-top: 20px;
+    
+    a {
+        font-size: 1.4rem; 
+        color: $intermediate-color;
+        transition: all .2s ease-in-out;
+    }
+    a:hover {
+        color: $secondary-color;   
+    }
+}
+#solutions-next {
+    margin-top: 20px;
+    
+    a {
+        font-size: 1.4rem; 
+        color: $secondary-color;
+        transition: all .2s ease-in-out;
+    }
+    a:hover {
+        color: $primary-color;   
+    }
+}
 
 
 /* Small Only ************************************************************************************/
