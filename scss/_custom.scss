@@ -295,9 +295,55 @@ footer {
     h3 {
         color: white;
         font-size: 1.4rem;
+        
+        @media #{$medium-up} {
+            font-size: 1.6rem;   
+        }
     }
     #cta-wrapper {
         background: url("/img/cta-button.svg") no-repeat;
+    }
+}
+#contact-imgs {
+    img {
+        width: 20%; 
+        margin-right: .5rem;
+        
+        @media (min-width: 380px) {
+            margin-right: 1.5rem;   
+        }
+        @media #{$medium-up} {
+            margin-right: 1rem;   
+        }
+    }
+    a {
+        font-size: .7rem; 
+        
+        @media (min-width: 380px) {
+            font-size: 1rem;   
+        }
+        @media (min-width: 440px) {
+            font-size: 1.2rem;   
+        }
+        @media (min-width: 500px) {
+            font-size: 1.4rem;   
+        }
+        @media #{$medium-up} {
+            font-size: 1rem;
+        }
+        @media #{$large-up} {
+            font-size: 1.4rem;
+        }
+    }
+
+    div {
+        margin-top: 1.5rem;
+        @media #{$medium-up} {
+            margin-top: 1rem;
+        }    
+    }
+    div:last-of-type {
+        margin-top: 1rem;   
     }
 }
 
