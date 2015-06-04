@@ -291,6 +291,16 @@ li.tab-title {
         color: $primary-color;   
     }
 }
+footer {
+    h3 {
+        color: white;
+        font-size: 1.4rem;
+    }
+    #cta-wrapper {
+        background: url("/img/cta-button.svg") no-repeat;
+    }
+}
+
 
 
 /* Small Only ************************************************************************************/
