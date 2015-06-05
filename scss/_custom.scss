@@ -7,9 +7,9 @@
     border: 2px solid white;
     color: white;
     transition: all .2s ease-in-out;
-}
-.button-transparent:hover {
-    background: white;
+    &:hover {
+        background: white;
+    }
 } 
 .primary, .indermediate, .secondary {
     transition: all .2s ease-in-out;
@@ -165,22 +165,6 @@ h3 > a {
     }
     
 }
-footer {
-    background: DimGray; 
-    margin-top: 30px;
-}
-#back-to-top {
-    color: black; 
-    transition: all .2s ease-in-out;
-    font-size: 1.2rem;
-    
-    @media #{$medium-up} {
-        font-size: 1.4rem;   
-    }
-}
-#back-to-top:hover {
-    color: $primary-color;   
-}
 li.tab-title {
     margin: 0;
     padding: 0;
@@ -252,9 +236,9 @@ li.tab-title {
         font-size: 1.4rem; 
         color: $primary-color;
         transition: all .2s ease-in-out;
-    }
-    a:hover {
-        color: $intermediate-color;   
+        &:hover {
+            color: $intermediate-color;   
+        }
     }
 }
 #applications-next {
@@ -264,9 +248,9 @@ li.tab-title {
         font-size: 1.4rem; 
         color: $intermediate-color;
         transition: all .2s ease-in-out;
-    }
-    a:hover {
-        color: $secondary-color;   
+        &:hover {
+            color: $secondary-color;   
+        }
     }
 }
 #solutions-next {
@@ -276,12 +260,14 @@ li.tab-title {
         font-size: 1.4rem; 
         color: $secondary-color;
         transition: all .2s ease-in-out;
-    }
-    a:hover {
-        color: $primary-color;   
+        &:hover {
+            color: $primary-color;   
+        }
     }
 }
 footer {
+    background: DimGray; 
+    margin-top: 30px;
     h3 {
         color: white;
         font-size: 1.4rem;
@@ -293,7 +279,7 @@ footer {
     }
     #cta-wrapper {
         background: url("/img/cta-button-gray.svg") no-repeat;
-        margin-bottom: 1rem;
+        margin-bottom: .3rem;
     }
     h4 {
         line-height: 1rem;
@@ -325,13 +311,28 @@ footer {
     p:last-of-type {
         font-size: .8rem;  
         color: rgb(50, 50, 50);
+        margin-bottom: 0;
+    }
+    #back-to-top {
+        margin-top: 0;
+        color: black; 
+        transition: all .2s ease-in-out;
+        font-size: 1.2rem;
+
+        @media #{$medium-up} {
+            font-size: 1.4rem;   
+        }
+        &:hover {
+            color: $primary-color;   
+        }
     }
 }
 #contact-imgs {
-    margin-bottom: 1rem;
-    
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(81, 81, 81);
     img {
         width: 20%; 
+        max-width: 60px;
         margin-right: .5rem;
         
         @media (min-width: 380px) {
