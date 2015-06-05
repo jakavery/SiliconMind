@@ -9,7 +9,7 @@
     </head>
     <body>
         <a id="top-jump"></a>
-        <nav class="top-bar" data-topbar role="navigation">
+        <nav class="top-bar" data-topbar role="navigation"><!-- Top nav -->
             <ul class="title-area">
                 <li class="name">
                     <h1><a href="index.html">Work</a></h1>
@@ -32,19 +32,17 @@
                     <li class="divider"></li>
                 </ul>
             </section>
-        </nav>
-        
-        <ul class="tabs show-for-medium-up" data-tab role="tablist" data-options="deep_linking: true">
+        </nav><!-- Top nav -->
+        <ul class="tabs show-for-medium-up" data-tab role="tablist" data-options="deep_linking: true"><!-- Tabs -->
             <li class="tab-title active" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="true">Website<br class="hide-for-large-up"/> Development</a></li>
             <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Mobile<br class="hide-for-large-up"/> Applications</a></li>
             <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Software<br class="hide-for-large-up"/> Solutions</a></li>
             <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Design<br class="hide-for-large-up"/> Gallery</a></li>
-        </ul>
-        
-        <dl class="accordion" data-accordion role="tablist">
+        </ul><!-- Tabs -->
+        <dl class="accordion" data-accordion role="tablist"><!-- Content -->
             <dd class="accordion-navigation">
                 <a href="#panel1" class="show-for-small-only" role="tab" id="panel1-heading" aria-controls="panel1">Website Development</a>
-                <section id="panel1" class="content active" role="tabpanel" aria-labelledby="panel1-heading">
+                <section id="panel1" class="content active" role="tabpanel" aria-labelledby="panel1-heading"><!-- Websites -->
                     <div id="websites-accordion" class="text-center">
                         <div class="row">
                             <img src="img/websites-flat.svg" alt="Website Development"/>
@@ -80,9 +78,9 @@
                             <a href="#panel2">Mobile Applications<img src="img/right-arrow.svg"/></a>
                         </div>
                     </div>
-                </section>
+                </section><!-- Websites -->
                 <a href="#panel2" class="show-for-small-only" role="tab" id="panel2-heading" aria-controls="panel2">Mobile Applications</a>
-                <section id="panel2" class="content" role="tabpanel" aria-labelledby="panel2-heading">
+                <section id="panel2" class="content" role="tabpanel" aria-labelledby="panel2-heading"><!-- Applications -->
                     <div id="applications-accordion" class="text-center">
                         <div class="row">
                             <img src="img/applications-flat.svg" alt="Mobile Applications"/>
@@ -110,9 +108,9 @@
                             <a href="#panel3">Software Solutions<img src="img/right-arrow.svg"/></a>
                         </div>
                     </div>
-                </section>
+                </section><!-- Applications -->
                 <a href="#panel3" class="show-for-small-only" role="tab" id="panel3-heading" aria-controls="panel3">Software Solutions</a>
-                <section id="panel3" class="content" role="tabpanel" aria-labelledby="panel3-heading">
+                <section id="panel3" class="content" role="tabpanel" aria-labelledby="panel3-heading"><!-- Solutions -->
                     <div id="solutions-accordion" class="text-center">
                         <div class="row">
                             <img src="img/solutions-flat.svg" alt="Software Solutions"/>
@@ -140,15 +138,72 @@
                             <a href="#panel4">Design Gallery<img src="img/right-arrow.svg"/></a>
                         </div>
                     </div>
-                </section>
+                </section><!-- Solutions -->
                 <a href="#panel4" class="show-for-small-only" role="tab" id="panel4-heading" aria-controls="panel4">Design Gallery</a>
-                <section id="panel4" class="content" role="tabpanel" aria-labelledby="panel4-heading">
+                <section id="panel4" class="content" role="tabpanel" aria-labelledby="panel4-heading"><!-- Gallery -->
                     <h1><span class="show-for-small-only">&nbsp;</span>Design <br class="show-for-small-only">Gallery</h1>
-                </section>
+                </section><!-- Gallery -->
             </dd>
-        </dl>
-        
+        </dl><!-- Content -->
         <footer>
+            <div class="row">
+                <div class="small-12 text-center columns">
+                    <h3>Together, we can do great things.</h3>
+                </div>
+            </div>
+            <div class="row"><!-- CTA Button -->
+                <div class="small-8 medium-5 large-4 small-centered columns">
+                    <a role="button" href="contact.html">
+                        <div id="cta-wrapper">
+                            <img id="cta-button" src="img/cta-button-hover.svg" alt="Let's Create Somethng"/>
+                        </div>
+                    </a>
+                </div>
+            </div><!-- CTA Button -->
+            <div class="row" id="contact-imgs">
+                <div class="small-11 small-centered medium-uncentered medium-text-center medium-push-1 medium-6 columns">
+                    <a href="mailto:claidlaw@siliconmindllc.com" target="_top"><img src="img/envelope-inverse.svg" alt="Email"/>claidlaw@siliconmindllc.com</a>
+                </div>
+                <div class="small-11 small-centered medium-uncentered medium-text-center medium-6 columns">
+                    <a href="tel://1-407-516-8851"><img src="img/phone-inverse.svg" alt="Call"/>(407) 516-8851</a>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="medium-4 medium-push-8 columns">
+                    <div class="row text-center" id="social-imgs">
+                        <h4 class="large-pull-1">Connect With Us</h4>
+                        <div class="small-3 medium-5 medium-push-1 large-3 large-pull-1 columns">
+                            <a href="https://www.facebook.com/siliconmind" target="_blank"><img src="img/facebook.svg" alt="Facebook"/></a>
+                        </div>
+                        <div class="small-3 medium-5 medium-push-1 large-3 large-pull-1 columns">
+                            <a href="https://plus.google.com/106311704032390212330/posts" target="_blank"><img src="img/googleplus.svg" alt="Google+"/></a>
+                        </div>
+                        <div class="small-3 medium-5 medium-push-1 large-3 large-pull-1 columns">
+                            <a href="https://twitter.com/SiliconMindCo" target="_blank"><img src="img/twitter.svg" alt="Twitter"/></a>
+                        </div>
+                        <div class="small-3 medium-5 medium-pull-1 large-3  columns">
+                            <a href="https://www.linkedin.com/company/siliconmindllc" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"/></a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="small-6 small-only-text-center medium-4 medium-pull-4 columns">
+                    <h4>Our Work</h4>
+                    <ul>
+                        <li><a href="work.html#panel1">Website Development</a></li>
+                        <li><a href="work.html#panel2">Mobile Applications</a></li>
+                        <li><a href="work.html#panel3">Software Solutions</a></li>
+                        <li><a href="work.html#panel4">Design Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="small-6 small-only-text-center medium-4 medium-pull-4 columns">
+                    <h4>Our Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#team">The Team</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div> 
             <div class="row"><!-- Back to Top row -->
                 <div class="small-12 small-centered text-center columns">
                     <a href="#top-jump"><img class="up-arrow" src="img/up-arrow.svg"/></a>
@@ -156,35 +211,12 @@
                     <a href="#top-jump"><img class="up-arrow" src="img/up-arrow.svg"/></a>
                 </div>
             </div><!-- Back to Top row -->
-            <div class="row"><!-- Contact Icons -->
-                <div class="contact-icons small-block-grid-3 medium-block-grid-6">
-                    <li>
-                        <a href="https://www.facebook.com/siliconmind" target="_blank"><img src="img/facebook.svg" alt="Facebook"/></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/106311704032390212330/posts" target="_blank"><img src="img/googleplus.svg" alt="Google+"/></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/SiliconMindCo" target="_blank"><img src="img/twitter.svg" alt="Twitter"/></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/siliconmindllc" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"/></a>
-                    </li>
-                    <li>
-                        <a href="tel://1-407-516-8851"><img src="img/phone.svg" alt="Call"/></a>
-                    </li>
-                    <li>
-                        <a href="mailto:claidlaw@siliconmindllc.com" target="_top"><img src="img/envelope.svg" alt="Email"/></a>
-                    </li>
-                </div>
-            </div><!-- Contact Icons -->
             <div class="row">
                 <div class="small-12 small-centered text-center columns">
-                    <p>© 2015 SiliconMind LLC<br class="show-for-small-only"> All rights reserved.</p>
+                    <p>© 2015 SiliconMind LLC All rights reserved.</p>
                 </div>
             </div>
         </footer>
-        
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/jquery.transit/jquery.transit.min.js"></script>
