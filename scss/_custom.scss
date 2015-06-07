@@ -407,6 +407,21 @@ footer {
     #accordion-container {
         margin-bottom: rem-calc(20); 
     }
+    .accordion-navigation div div div.small-3 {
+        color: white;  
+        text-align: center;
+        margin-top: 1rem;
+        padding: 0;
+        font-size: .6rem;
+        @media (min-width: 390px) {
+            font-size: .8rem;   
+        }
+        line-height: 1rem;
+        &:not(:first-of-type) {
+            border-left: 1px solid white;  
+        }
+        
+    }
     +footer {
         margin-top: 0;   
     }
