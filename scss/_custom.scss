@@ -390,8 +390,27 @@ footer {
     div:last-of-type {
         padding: 0;
     }
-    img {
-
+}
+#form-wrapper {
+    background: $intermediate-color; 
+    p, label {
+        color: white;   
+    }
+    p:first-of-type {
+        margin-top: rem-calc(20);
+        @media #{$large-up} {
+            font-size: 1.6rem;   
+        }
+    }
+    #accordion-container {
+        margin-bottom: rem-calc(20); 
+    }
+    +footer {
+        margin-top: 0;   
+    }
+    #panel1 {
+        background: #69DBB3;
+        padding: rem-calc(20);
     }
 }
 @media #{$medium-only} {
