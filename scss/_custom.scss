@@ -386,7 +386,6 @@ footer {
     } 
 }
 #logo-cropped-banner {
-    border-bottom: 1px solid rgb(81, 81, 81);
     div:last-of-type {
         padding: 0;
     }
@@ -402,6 +401,9 @@ footer {
             font-size: 1.6rem;   
         }
     }
+    span{
+        color: gray;
+    }    
     #accordion-container {
         margin-bottom: rem-calc(20); 
     }

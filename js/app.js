@@ -38,3 +38,14 @@ $(document).foundation('accordion', {
         $('html, body').animate({scrollTop: containerPos}, 300);
     }
 });
+
+// Fix range sliders in accordion on Contact Us page
+$(document).ready(function() {
+    $(document).foundation({
+        accordion: {
+            callback : function (accordion) {
+                $(document).foundation('reflow');
+            }
+        }                             
+    });
+}); 
