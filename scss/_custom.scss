@@ -424,7 +424,7 @@ footer {
         &:hover {
             background: rgba(255, 255, 255, 0.2);   
         }
-        &.budget-slider-active {
+        &.slider-active {
             background: rgba(255, 255, 255, 0.3);
             transition: all .2s ease-in-out;
             &:hover {

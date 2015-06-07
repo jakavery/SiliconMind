@@ -49,3 +49,8 @@ $(document).ready(function() {
         }                             
     });
 }); 
+
+// Contact Us sliders and labels
+$('[data-slider]').on('change.fndtn.slider', function(){
+    console.log("slider moved");
+});
