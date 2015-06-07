@@ -389,11 +389,9 @@ footer {
     border-bottom: 1px solid rgb(81, 81, 81);
     div:last-of-type {
         padding: 0;
-        margin: 0;
     }
     img {
-        padding: 0;
-        margin: 0;
+
     }
 }
 @media #{$medium-only} {
