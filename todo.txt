@@ -11,4 +11,5 @@
 - Make sure tabs and panels are accessible with tab-index and such
 + Back to Top link in footer
 - The Team links in footer and homepage
+- Twirl arrow for Project Details accordion on Contact Us page
 
