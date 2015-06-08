@@ -386,9 +386,30 @@ footer {
     } 
 }
 #logo-cropped-banner {
+    img {
+        max-width: 300px;
+    }
     div:last-of-type {
         padding: 0;
     }
+    h1 {
+        margin-bottom: 0; 
+        padding-top: 20px;
+        @media (max-width: 320px) {
+            font-size: 1.6rem; 
+        }
+        @media (min-width: 380px) {
+            padding-top: 40px;
+        }
+        @media #{$medium-up} {
+            font-size: 3rem; 
+            padding-top: 60px;
+        }
+        @media #{$large-up} {
+            font-size: 4rem;   
+        }
+    }
+
 }
 #form-wrapper {
     background: $intermediate-color; 
