@@ -117,3 +117,13 @@ $('#timeline-slider-labels a').click(function() {
         $('#timeline-slider').foundation('slider', 'set_value', 99.99);  
     }
 });
+
+// Contact Us form submission 
+$('#contact-form')
+    .on('invalid.fndtn.abide', function(){
+        var invalid_fields = $(this).find('[data-invalid]');
+        console.log(invalid_fields);
+    })
+    .on('valid.fndtn.abide', function(){
+        console.log('Valid!');
+    });
