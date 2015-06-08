@@ -47,26 +47,29 @@
                         <p>Whether you want to get started on a project, or just came to say hey - we'd love to hear from you.</p>
                     </div>
                 </div>
-            <form>
+            <form data-abide>
                 <div class="row">
                     <div class="small-12 small-centered medium-8 columns">
-                        <label>Name
-                        <input type="text" />
+                        <label for="name">Name
+                        <input id="name" type="text" required>
                         </label>
+                        <small class="error">What's your name? Don't be shy!</small>
                     </div>
                 </div>
                 <div class="row">
                     <div class="small-12 small-centered medium-8 columns">
-                        <label>Email
-                            <input type="text" />
+                        <label for="email">Email
+                            <input id="email" type="email" required>
                         </label>
+                        <small class="error">Please enter a valid email so we can get back to you.</small>
                     </div>
                 </div>
                 <div class="row">
                     <div class="small-12 small-centered medium-8 columns">
-                        <label>Message / Project Description
-                            <textarea rows="6"></textarea>
+                        <label for="message">Message / Project Description
+                            <textarea id="message" type="text" rows="6" required></textarea>
                         </label>
+                        <small class="error">Let's get the conversation flowing!</small>
                     </div>
                 </div>
                 <div class="row" id="accordion-container">
@@ -83,15 +86,15 @@
                                     <div class="row">
                                         <div class="row">
                                             <div class="small-10 small-centered columns">
-                                                <label>Phone Number
-                                                    <input type="text" />
+                                                <label for="phone">Phone Number
+                                                    <input id="phone" type="text">
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="small-10 small-centered columns">
-                                                <label>Company
-                                                    <input type="text" />
+                                                <label for="company">Company
+                                                    <input id="company" type="text">
                                                 </label>
                                             </div>
                                         </div>
@@ -147,7 +150,7 @@
                 </div>
                 <div class="row">
                     <div class="small-8 medium-6 small-centered text-center columns">
-                        <a role="button" href="work.html#panel2" class="button-transparent intermediate">Submit</a>
+                        <button type="submit" class="button-transparent intermediate">Submit</button>
                     </div>
                 </div> 
             </form>

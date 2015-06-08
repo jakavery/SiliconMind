@@ -465,6 +465,13 @@ footer {
         background: #69DBB3;
         padding: rem-calc(20);
     }
+    button {
+        background: transparent;
+        transition: all .2s ease-in-out;
+        &:hover {
+            background: white;   
+        }
+    }
 }
 @media #{$medium-only} {
     #social-imgs div:last-child, #social-imgs div:nth-last-child(2) {
