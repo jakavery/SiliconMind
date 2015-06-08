@@ -121,9 +121,131 @@ $('#timeline-slider-labels a').click(function() {
 // Contact Us form submission 
 $('#contact-form')
     .on('invalid.fndtn.abide', function(){
+    var invalid_fields = $(this).find('[data-invalid]');
+    console.log(invalid_fields);
+})
+    .on('valid', function(){
+    console.log('Valid!');
+
+    //grab the values of these id's
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var message = $('#message').val();
+    var phone = $('#phone').val();
+    var company = $('#company').val();
+    var budget = $('#budget-slider').attr('data-slider');
+    var timeline = $('#timeline-slider').attr('data-slider');
+
+    //stare data in this array
+    var dataArray = {name, email, message, phone, company, budget, timeline};
+
+    console.log(dataArray);
+
+    //begin ajax call
+    $.ajax({
+        url: "contact-form.php",
+        type: "post",
+        data: dataArray,
+        success: function(data){
+            console.log('php success');
+            console.log(data);
+        },
+        error: function(jqXHR, status, error){
+            console.log("status: " + status + " message: " + error);   
+        }
+    }); //end ajax call
+}); //on valide Abide form submit  
+
+
+
+    /*
+        //prevent default form submitting so it can run the ajax code first 
+    e.preventDefault();
+
+    //invalid Abide validations (doesn't appear to ever get called)
+    $(this).on('invalid.fndtn.abide', function(){
+        var invalid_fields = $(this).find('[data-invalid]');
+        console.log(invalid_fields);
+    });
+
+    //valid Abide validation
+    $(this).on('valid.fndtn.abide', function(){
+        console.log('Valid!');
+
+        //grab the values of these id's
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var message = $('#message').val();
+        var phone = $('#phone').val();
+        var company = $('#company').val();
+
+        //stare data in this array
+        var dataArray = {name, email, message, phone, company};
+
+        console.log(dataArray);
+
+        //begin ajax call
+        $.ajax({
+            url: "contact-form.php",
+            type: "post",
+            data: dataArray,
+            success: function(data){
+                console.log('php success');
+                console.log(data);
+            },
+            error: function(jqXHR, status, error){
+                console.log("status: " + status + " message: " + error);   
+            }
+        }); //end ajax call
+    
+    
+    
+    
+    .on('invalid.fndtn.abide', function(){
         var invalid_fields = $(this).find('[data-invalid]');
         console.log(invalid_fields);
     })
     .on('valid.fndtn.abide', function(){
         console.log('Valid!');
-    });
+        //variable to hold request
+        var request;
+        
+        //abort any pending request
+        if (request) {
+            request.abort();   
+        }
+    
+        //set up local variables
+        var $form = $(this);
+    
+        //select and cache all the fields
+        var $inputs = $form.find('input, textarea');
+    
+        //serialize all the data in the form
+        var serializedData = $form.serialize();
+    
+        //disable inputs for the duration of the ajax request
+        $inputs.prop("disabled", "true");
+    
+        //fire off request to php file_exists
+        request = $.ajax({
+            url: "contact-form.php",
+            type: "post",
+            data: serializedData
+        });
+    
+        //callback handler that will be called on succcess
+        request.done(function (response, textStatus, jqXHR){
+            console.log('Form submitted successfully!'+response);
+        }); //successful submit
+    
+        //callback handler that will be called on failure
+        request.fail(function (response, textStatus, errorThrown){
+            console.error("The following error occured: "+textStatus, errorThrown);
+        }); //error with submission
+    
+        //callback handler that will be called regardless of success or failure
+        request.always(function (){
+            //reenable the inputs
+            $inputs.prop("disabled", "false");
+        });*/
